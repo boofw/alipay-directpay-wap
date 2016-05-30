@@ -1,0 +1,15 @@
+{
+    "name": "boofw/alipay-directpay-wap",
+    "autoload": {
+        "psr-4": {
+            "Boofw\\Alipay\\Wap\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "Boof Wang",
+            "homepage": "http://boof.wang",
+            "email": "i@boof.wang"
+        }
+    ]
+}
