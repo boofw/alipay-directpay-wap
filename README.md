@@ -32,14 +32,14 @@ header('location: '.$url);
 
 // 付款后，跳转回 return_url，验证支付结果并处理订单
 if (Alipay::verifyReturn()) {
-    // 修改订单状态为已付款
+    // @todo 修改订单状态为已付款
 } else {
-    // 返回提示信息页：付款不成功
+    // @todo 返回提示信息页：付款不成功
 }
 
 // 异步通知 notify_url 页验证支付结果并处理订单
 if (Alipay::verifyNotify()) {
-    // 修改订单状态为已付款
+    // @todo 修改订单状态为已付款
     die('success');
 } else {
     die('fail');
